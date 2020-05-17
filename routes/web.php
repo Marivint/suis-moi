@@ -43,22 +43,24 @@ Route::get('/test-get',  function () {
 
 });
 
-Route::get('/test-post/{post}',  function ($post) {
+// Route::get('/test-post/{post}',  function ($post) {
 
-	// return $post;
+// 	// return $post;
 
-	$posts = [
-		'my-first-post' => 'Hello, this is my first blog post',
-		'my-second-post' => 'Now I am getting the hang of this blogging thing',
-	];
+// 	$posts = [
+// 		'my-first-post' => 'Hello, this is my first blog post',
+// 		'my-second-post' => 'Now I am getting the hang of this blogging thing',
+// 	];
 
-	if(!array_key_exists($post, $posts)){
-		abort(404, 'Sorry that post was not found');
-	}
+// 	if(!array_key_exists($post, $posts)){
+// 		abort(404, 'Sorry that post was not found');
+// 	}
 
-  return view('test-post',[
-  	'post' => $posts[$post],
-  ]);
+//   return view('test-post',[
+//   	'post' => $posts[$post],
+//   ]);
 
-  // return view('test-post');
-});
+//   return view('test-post');
+// });
+
+Route::get('/test-post/{post}','PostController@show');
