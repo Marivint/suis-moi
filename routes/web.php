@@ -64,8 +64,3 @@ Route::get('/test-get',  function () {
 // });
 
 Route::get('/test-post/{post}','PostController@show');
-
-
-Route::get('/contact', function () {
-    return view('contact');
-});
