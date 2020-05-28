@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/welcome', function () {
 //     return view('welcome');
@@ -68,4 +68,8 @@ Route::get('/test-post/{post}','PostController@show');
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
 });
