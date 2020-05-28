@@ -523,15 +523,12 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 492,
+				"buffer_size": 1475,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"{{ str_replace('_', '-', app()->getLocale()) }}\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n        <title>Laracast</title>\n\n        <!-- Fonts -->\n        <link href=\"https://fonts.googleapis.com/css?family=Nunito:200,600\" rel=\"stylesheet\">\n\n        <!-- Styles -->\n        <style>\n            html, body {\n                background-color: #fff;\n                color: #636b6f;\n                font-family: 'Nunito', sans-serif;\n                font-weight: 200;\n                height: 100vh;\n                margin: 0;\n            }\n\n            .full-height {\n                height: 100vh;\n            }\n\n            .flex-center {\n                align-items: center;\n                display: flex;\n                justify-content: center;\n            }\n\n            .position-ref {\n                position: relative;\n            }\n\n            .top-right {\n                position: absolute;\n                right: 10px;\n                top: 18px;\n            }\n\n            .content {\n                text-align: center;\n            }\n\n            .title {\n                font-size: 84px;\n            }\n\n            .links > a {\n                color: #636b6f;\n                padding: 0 25px;\n                font-size: 13px;\n                font-weight: 600;\n                letter-spacing: .1rem;\n                text-decoration: none;\n                text-transform: uppercase;\n            }\n\n            .m-b-md {\n                margin-bottom: 30px;\n            }\n        </style>\n    </head>\n    <body>\n        <div class=\"flex-center position-ref full-height\">\n            @if (Route::has('login'))\n                <div class=\"top-right links\">\n                    @auth\n                        <a href=\"{{ url('/home') }}\">Home</a>\n                    @else\n                        <a href=\"{{ route('login') }}\">Login</a>\n\n                        @if (Route::has('register'))\n                            <a href=\"{{ route('register') }}\">Register</a>\n                        @endif\n                    @endauth\n                </div>\n            @endif\n\n            <div class=\"content\">\n                <div class=\"title m-b-md\">\n                    Laracast\n                </div>\n\n                <div class=\"links\">\n                    <a href=\"https://laravel.com/docs\">Docs</a>\n                    <a href=\"https://laracasts.com\">Laracasts</a>\n                    <a href=\"https://laravel-news.com\">News</a>\n                    <a href=\"https://blog.laravel.com\">Blog</a>\n                    <a href=\"https://nova.laravel.com\">Nova</a>\n                    <a href=\"https://forge.laravel.com\">Forge</a>\n                    <a href=\"https://vapor.laravel.com\">Vapor</a>\n                    <a href=\"https://github.com/laravel/laravel\">GitHub</a>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n",
 			"file": "resources/views/welcome.blade.php",
-			"file_size": 2955,
-			"file_write_time": 132341027516780037,
 			"settings":
 			{
 				"buffer_size": 2955,
@@ -540,14 +537,11 @@
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nauto-save\n---------\n\n  Thank you for installing AutoSave\n  ----------------------------------------\n  \n  You're one step closer to having your files save automatically after every modification!\n  \n  \n  Documentation\n  =============\n  The plugin is dead simple. When turned on, the current file you are viewing will\n  save automatically as you modify it. In other words, the file saves after every keystroke.\n  The plugin is turned off by default since it is so invasive. You may enable it by adding\n  a key binding to the \"auto_save\" command in \"Preferences / Key Bindings - User\", for example:\n  \n  { \"keys\": [\"ctrl+shift+s\"], \"command\": \"auto_save\" }\n  \n  See links below for more help.\n  \n  Useful Links\n  ============\n  * Documentation & Code: https://github.com/jamesfzhang/auto-save\n  * Report issues: https://github.com/jamesfzhang/auto-save/issues\n  * Follow me on Twitter: @jamesfzhang\n",
+			"file": "/C/Users/Yvann/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 946,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 269,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -562,6 +556,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -828,15 +826,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 492,
+						"buffer_size": 1475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								428,
-								428
+								36,
+								36
 							]
 						],
 						"settings":
@@ -924,8 +922,8 @@
 						"selection":
 						[
 							[
-								2039,
-								2039
+								971,
+								971
 							]
 						],
 						"settings":
@@ -938,7 +936,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1390.0,
+						"translation.y": 536.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -946,27 +944,27 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/C/Users/Yvann/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 946,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								197,
+								197
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
 							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
