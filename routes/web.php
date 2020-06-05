@@ -14,22 +14,24 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
      return view('welcome');
  });
 
-// Route::get('/welcome', function () {
-//     return view('welcome');
-// });
 
-// Route::get('/welcome', function () {
-//     // return view('welcome');
-// 	return 'Hello World';
-// });
+Route::get('/index', function () {
+    return view('index');
+});
 
-// Route::get('/welcome', function () {
-//     // return view('welcome');
-// 	return ['test' => 'lol' ];
-// });
+
+Route::get('/generic', function () {
+    return view('generic');
+});
+
+Route::get('/elements', function () {
+    return view('elements');
+});
+
 
 Route::get('/test-get',  function () {
 
@@ -42,6 +44,7 @@ Route::get('/test-get',  function () {
   ]);
 
 });
+
 
 // Route::get('/test-post/{post}',  function ($post) {
 
@@ -67,3 +70,5 @@ Route::get('/test-post/{post}','PostController@show');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+

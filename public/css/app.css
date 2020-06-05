@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
 /*!
@@ -10931,5 +10932,9 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+=======
+.test {
+  color: black;
+>>>>>>> 13ab88ec1a9964855383b24c8c1b5487308eff09
 }
 
