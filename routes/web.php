@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+     return view('welcome');
+ });
 
 // Route::get('/welcome', function () {
 //     return view('welcome');
@@ -64,3 +64,6 @@ Route::get('/test-get',  function () {
 // });
 
 Route::get('/test-post/{post}','PostController@show');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
