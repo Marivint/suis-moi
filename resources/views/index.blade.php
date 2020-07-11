@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Spatial by TEMPLATED</title>
+		<title>Suis-moi</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}" />
@@ -15,12 +15,13 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1><strong><a href="index.html">Spatial</a></strong> by Templated</h1>
+				<h1><strong><a href="index.html">Suis moi</a></strong></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/generic">Generic</a></li>
-						<li><a href="/elements">Elements</a></li>
+						<li><a href="/">Accueil</a></li>
+						<li><a href="/generic">Les publications</a></li>
+						<li><a href="/elements">Premium</a></li>
+						<li><a href="/elements">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -29,10 +30,10 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<h2>Spatial</h2>
-				<p>Lorem ipsum dolor sit amet nullam consequat <br /> interdum vivamus donce sed libero.</p>
+				<h2>Suis moi</h2>
+				<p>Où allons-nous aujourd'hui ?</p>
 				<ul class="actions">
-					<li><a href="#" class="button special big">Get Started</a></li>
+					<li><a href="#" class="button special big">Découvrez</a></li>
 				</ul>
 			</section>
 
