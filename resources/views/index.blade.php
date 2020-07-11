@@ -1,54 +1,6 @@
-<!DOCTYPE HTML>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Suis-moi</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/main.css') }}" />
-	</head>
-	<body class="landing">
+@extends('layouts.app')
 
-	</body>
-</html>
-
-
-
-
-
-<!doctype html>
-<html lang="en">
-
-  <head>
-    <title>Barberz &mdash; Website Template by Colorlib</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('fonts/flaticon/font')}}/flaticon.css">
-    <link rel="stylesheet" href="{{ asset('css/aos.css')}}">
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-  </head>
-
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-    
+@section('content')
     <div class="site-wrap" id="home-section">
 
       <div class="site-mobile-menu site-navbar-target">
@@ -69,7 +21,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html">Barberz</a>
+                <a href="index.html">Suis-moi</a>
               </div>
             </div>
 
@@ -82,12 +34,11 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="services.html" class="nav-link">Services</a></li>
-                  <li><a href="barber-shop.html" class="nav-link">Barber Shop</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
+                  <li class="active"><a href="index.html" class="nav-link">Accueil</a></li>
+                  <li><a href="services.html" class="nav-link">Publications</a></li>
+                  <li><a href="barber-shop.html" class="nav-link">Premium</a></li>
+                  <li><a href="about.html" class="nav-link">Contact</a></li>
                   <li><a href="blog.html" class="nav-link">Blog</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -99,12 +50,12 @@
       </header>
 
     <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg')">
+      <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('{{ asset('images/mauritus-background-1.jpg') }}')">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-7">
-              <h1 class="mb-3">More Than Just A Haircut</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
+              <h1 class="mb-3">Suis-moi</h1>
+              <p>Ou allons-nous aujourd'hui ?</p>
               <p><a href="#" class="btn btn-primary">Learn More</a></p>
             </div>
           </div>
@@ -497,23 +448,17 @@
 
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/aos.js"></script>
-
-    <script src="js/main.js"></script>
-
-  </body>
-
-</html>
-
+    <!-- <script src="{{ asset('js/jquery-3.3.1.min.js') }} "></script> -->
+    <!-- <script src="{{ asset('js/jquery-migrate-3.0.0.js') }} "></script> -->
+    <!-- <script src="{{ asset('js/popper.min.js') }} js/popper.min.js"></script> -->
+    <!-- <script src="{{ asset('js/bootstrap.min.js') }} js/bootstrap.min.js"></script> -->
+    <!-- <script src="{{ asset('js/owl.carousel.min.js') }} js/owl.carousel.min.js"></script> -->
+<!--     <script src="{{ asset('js/jquery.sticky.js') }} js/jquery.sticky.js"></script>
+    <script src="{{ asset('js/jquery.waypoints.min.js') }} js/jquery.waypoints.min.js"></script>
+    <script src="{{ asset('js/jquery.animateNumber.min.js') }} js/jquery.animateNumber.min.js"></script>
+    <script src="{{ asset('js/jquery.fancybox.min.js') }} js/jquery.fancybox.min.js"></script>
+    <script src="{{ asset('js/jquery.stellar.min.js') }} js/jquery.stellar.min.js"></script>
+    <script src="{{ asset('js/jquery.easing.1.3.js') }} js/jquery.easing.1.3.js"></script> -->
+    <!-- <script src="{{ asset('js/bootstrap-datepicker.min.js') }} js/bootstrap-datepicker.min.js"></script> -->
+    <!-- <script src="{{ asset('js/aos.js') }} js/aos.js"></script> -->
+@endsection
