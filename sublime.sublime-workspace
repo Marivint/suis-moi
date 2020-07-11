@@ -523,8 +523,8 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 492,
-				"line_ending": "Unix"
+				"buffer_size": 1469,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -535,7 +535,6 @@
 			"settings":
 			{
 				"buffer_size": 2955,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -828,15 +827,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 492,
+						"buffer_size": 1469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								428,
-								428
+								0,
+								0
 							]
 						],
 						"settings":
