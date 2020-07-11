@@ -2,37 +2,33 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+// Connnexion RB
+Auth::routes();
 
+// Connnexion RB
+Route::get('/home', 'HomeController@index')->name('home');
+
+// Page d'accueil YM
 Route::get('/', function () {
-
-     return view('welcome');
+     return view('index');
  });
 
-
+// Page d'accueil YM
 Route::get('/index', function () {
     return view('index');
 });
 
-
+// Page generic YM
 Route::get('/generic', function () {
     return view('generic');
 });
 
+// Page element YM
 Route::get('/elements', function () {
     return view('elements');
 });
 
-
+// Test GET YM
 Route::get('/test-get',  function () {
 
 	$name = request('name'); // $_GET
@@ -45,7 +41,7 @@ Route::get('/test-get',  function () {
 
 });
 
-
+// Test POST YM
 // Route::get('/test-post/{post}',  function ($post) {
 
 // 	// return $post;
@@ -66,9 +62,5 @@ Route::get('/test-get',  function () {
 //   return view('test-post');
 // });
 
+// Test POST YM
 Route::get('/test-post/{post}','PostController@show');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-
