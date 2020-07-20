@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+Route::get('/logout', "Auth\LoginController@logout")->name("logout");
 // Connnexion RB
 Auth::routes();
 

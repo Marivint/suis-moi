@@ -1,31 +1,5 @@
-<!DOCTYPE HTML>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Generic - Spatial by TEMPLATED</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="{{ asset('css/main.css') }}" />
-	</head>
-	<body>
-
-		<!-- Header -->
-			<header id="header">
-				<h1><strong><a href="index.html">Spatial</a></strong> by Templated</h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/generic">Generic</a></li>
-						<li><a href="/elements">Elements</a></li>
-					</ul>
-				</nav>
-			</header>
-
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+@extends('layouts.app')
+@section("content")
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
@@ -60,11 +34,7 @@
 				</div>
 			</footer>
 
-		<!-- Scripts -->
-			<script src="{{ asset('js/jquery.min.js') }}"></script>
-			<script src="{{ asset('js/skel.min.js') }}"></script>
-			<script src="{{ asset('js/util.js') }}"></script>
-			<script src="{{ asset('js/main.js') }}"></script>
 
-	</body>
-</html>
+
+
+@endsection

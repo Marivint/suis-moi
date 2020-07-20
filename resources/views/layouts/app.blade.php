@@ -57,11 +57,17 @@
 
                   <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                     <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                      <li class="active"><a href="index.html" class="nav-link">Accueil</a></li>
-                      <li><a href="services.html" class="nav-link">Publications</a></li>
-                      <li><a href="barber-shop.html" class="nav-link">Premium</a></li>
-                      <li><a href="about.html" class="nav-link">Contact</a></li>
-                      <li><a href="blog.html" class="nav-link">Blog</a></li>
+                      <li class="active"><a href="index" class="nav-link">Accueil</a></li>
+                      <li><a href="services" class="nav-link" style ="color : black!important;">Publications</a></li>
+                      <li><a href="barber-shop" class="nav-link">Premium</a></li>
+                      <li><a href="about" class="nav-link">Contact</a></li>
+                      <li><a href="blog" class="nav-link">Blog</a></li>
+                      @guest
+                      <li><a href="{{ route('register')}}" class="nav-link">Inscription</a></li>
+                      <li><a href="{{ route('login')}}" class="nav-link">Connexion</a></li>
+                      @else
+                      <li><a href="{{ route('logout')}}" class="nav-link">Déconnexion</a></li>
+                      @endguest
                     </ul>
                   </nav>
                 </div>

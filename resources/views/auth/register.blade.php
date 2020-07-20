@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" style="top: 50%; position: absolute; transform: translateY(-50%);left : 15%">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
