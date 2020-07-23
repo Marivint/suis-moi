@@ -11,7 +11,7 @@
             <div class="col-md-7">
               <h1 class="mb-3">Suis-moi</h1>
               <p>Ou allons-nous aujourd'hui ?</p>
-              <p><a href="#" class="btn btn-primary">Learn More</a></p>
+              <p><a href="#" class="btn btn-primary">En savoir plus</a></p>
             </div>
           </div>
         </div>
@@ -23,17 +23,14 @@
         <div class="row">
           <div class="col-lg-6 mb-5 mb-lg-0">
             <div class="img-years">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <div class="year">
-                <span>3 <span>years in <br>excellent service</span></span>
-              </div>
+              <img src="{{ asset('images/beach.jpg') }}" alt="Image" class="img-fluid">
             </div>
 
           </div>
           <div class="col-lg-5 ml-auto pl-lg-5 text-center">
-            <h3 class="scissors text-center">Welcome To Barberz!</h3>
+            <h3 class="scissors text-center">Bienvenue chez Suis-moi !</h3>
             <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
-            <p><a href="#" class="btn btn-primary">Learn More</a></p>
+            <p><a href="#" class="btn btn-primary">En savoir plus</a></p>
           </div>
         </div>
       </div>
@@ -45,13 +42,8 @@
       <div class="container">
         <div class="row justify-content-center  mb-5">
           <div class="col-md-7 text-center">
-            <h3 class="scissors text-center">Services &amp; Pricing</h3>
+            <h3 class="scissors text-center">Abonnements</h3>
             <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
-
-            <p class="text-center">
-              <a href="#" class="btn btn-primary custom-prev">Prev</a>
-              <a href="#" class="btn btn-primary custom-next">Next</a>
-            </p>
           </div>
 
         </div>
@@ -61,45 +53,22 @@
             <div class="nonloop-block-13 owl-carousel d-flex">
               
               <div class="item-1 h">
-                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+                <img src="{{ asset('images/parachute.jpg') }}" alt="Image" class="img-fluid">
                 <div class="item-1-contents">
-                  <h3>Haircut</h3>
+                  <h3>Annuel</h3>
                   <ul>
-                    <li class="d-flex"><span>Men's Cut</span> <span class="price ml-auto">$29.00</span></li>
-                    <li class="d-flex"><span>Men's Cut with Shampoo and Blow Dry</span><span class="price ml-auto">$10.00</span></li>
-                    <li class="d-flex"><span>Ladie's Cut with Shampoo and Blow Dry</span><span class="price ml-auto">$32.00</span></li>
-                    <li class="d-flex"><span>Head Shave</span><span class="price ml-auto">$23.00</span></li>
-                    <li class="d-flex"><span>Hair Art</span><span class="price ml-auto">$54.00</span></li>
+                    <li class="d-flex"><span>Prix</span> <span class="price ml-auto">59.00 €</span></li>
                   </ul>
                 </div>
                 
               </div>
 
               <div class="item-1 h">
-                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+                <img src="{{ asset('images/parachute.jpg') }}" alt="Image" class="img-fluid">
                 <div class="item-1-contents">
-                  <h3>Hair Styling</h3>
+                  <h3>Mensuel</h3>
                   <ul>
-                    <li class="d-flex"><span>Shampoo</span> <span class="price ml-auto">$29.00</span></li>
-                    <li class="d-flex"><span>Blow Dry</span><span class="price ml-auto">$10.00</span></li>
-                    <li class="d-flex"><span>Iron</span><span class="price ml-auto">$32.00</span></li>
-                    <li class="d-flex"><span>Brazilian Blow Out</span><span class="price ml-auto">$23.00</span></li>
-                    <li class="d-flex"><span>Hair Art</span><span class="price ml-auto">$54.00</span></li>
-                  </ul>
-                </div>
-                
-              </div>
-
-              <div class="item-1 h">
-                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-                <div class="item-1-contents">
-                  <h3>Hair Scalp Care</h3>
-                  <ul>
-                    <li class="d-flex"><span>Shampoo</span> <span class="price ml-auto">$29.00</span></li>
-                    <li class="d-flex"><span>Blow Dry</span><span class="price ml-auto">$10.00</span></li>
-                    <li class="d-flex"><span>Iron</span><span class="price ml-auto">$32.00</span></li>
-                    <li class="d-flex"><span>Brazilian Blow Out</span><span class="price ml-auto">$23.00</span></li>
-                    <li class="d-flex"><span>Hair Art</span><span class="price ml-auto">$54.00</span></li>
+                    <li class="d-flex"><span>Prix</span> <span class="price ml-auto">5 €</span></li>
                   </ul>
                 </div>
                 
@@ -117,28 +86,28 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center">
-            <h3 class="scissors text-center">More Hair Styles</h3>
+            <h3 class="scissors text-center">Nos destinations ...</h3>
             <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
           </div>
         </div>
         <div class="row hair-style">
           <div class="col-lg-4 col-md-4 col-sm-6 col-12">
             <a href="#" class="place">
-              <img src="images/img_1.jpg" alt="Image placeholder">
+              <img src="{{ asset('images/tree-water.jpg') }}" alt="Image placeholder">
               <h2>Beard Shaving</h2>
               <span>$50.00 only</span>
             </a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-12">
             <a href="#" class="place">
-              <img src="images/img_2.jpg" alt="Image placeholder">
+              <img src="{{ asset('images/lotus-flower.jpg') }}" alt="Image placeholder">
               <h2>Crew Cut</h2>
               <span>$50.00 only</span>
             </a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-12">
             <a href="#" class="place">
-              <img src="images/img_3.jpg" alt="Image placeholder">
+              <img src="{{ asset('images/waterfall.jpg') }}" alt="Image placeholder">
               <h2>Beard Trim</h2>
               <span>$50.00 only</span>
             </a>
@@ -341,7 +310,7 @@
     </div>
 
 
-    <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg');">
+    <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url({{ asset('images/beach.jpg') }});">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-7 text-center mb-5">

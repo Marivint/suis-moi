@@ -520,33 +520,12 @@
 	"buffers":
 	[
 		{
-			"file": "routes/web.php",
+			"file": "/F/WOWS/World_of_Warships_EU/bin/2666186/res/engine_config.xml",
 			"settings":
 			{
-				"buffer_size": 1469,
+				"buffer_size": 8987,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"{{ str_replace('_', '-', app()->getLocale()) }}\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n        <title>Laracast</title>\n\n        <!-- Fonts -->\n        <link href=\"https://fonts.googleapis.com/css?family=Nunito:200,600\" rel=\"stylesheet\">\n\n        <!-- Styles -->\n        <style>\n            html, body {\n                background-color: #fff;\n                color: #636b6f;\n                font-family: 'Nunito', sans-serif;\n                font-weight: 200;\n                height: 100vh;\n                margin: 0;\n            }\n\n            .full-height {\n                height: 100vh;\n            }\n\n            .flex-center {\n                align-items: center;\n                display: flex;\n                justify-content: center;\n            }\n\n            .position-ref {\n                position: relative;\n            }\n\n            .top-right {\n                position: absolute;\n                right: 10px;\n                top: 18px;\n            }\n\n            .content {\n                text-align: center;\n            }\n\n            .title {\n                font-size: 84px;\n            }\n\n            .links > a {\n                color: #636b6f;\n                padding: 0 25px;\n                font-size: 13px;\n                font-weight: 600;\n                letter-spacing: .1rem;\n                text-decoration: none;\n                text-transform: uppercase;\n            }\n\n            .m-b-md {\n                margin-bottom: 30px;\n            }\n        </style>\n    </head>\n    <body>\n        <div class=\"flex-center position-ref full-height\">\n            @if (Route::has('login'))\n                <div class=\"top-right links\">\n                    @auth\n                        <a href=\"{{ url('/home') }}\">Home</a>\n                    @else\n                        <a href=\"{{ route('login') }}\">Login</a>\n\n                        @if (Route::has('register'))\n                            <a href=\"{{ route('register') }}\">Register</a>\n                        @endif\n                    @endauth\n                </div>\n            @endif\n\n            <div class=\"content\">\n                <div class=\"title m-b-md\">\n                    Laracast\n                </div>\n\n                <div class=\"links\">\n                    <a href=\"https://laravel.com/docs\">Docs</a>\n                    <a href=\"https://laracasts.com\">Laracasts</a>\n                    <a href=\"https://laravel-news.com\">News</a>\n                    <a href=\"https://blog.laravel.com\">Blog</a>\n                    <a href=\"https://nova.laravel.com\">Nova</a>\n                    <a href=\"https://forge.laravel.com\">Forge</a>\n                    <a href=\"https://vapor.laravel.com\">Vapor</a>\n                    <a href=\"https://github.com/laravel/laravel\">GitHub</a>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>\n",
-			"file": "resources/views/welcome.blade.php",
-			"file_size": 2955,
-			"file_write_time": 132341027516780037,
-			"settings":
-			{
-				"buffer_size": 2955,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nauto-save\n---------\n\n  Thank you for installing AutoSave\n  ----------------------------------------\n  \n  You're one step closer to having your files save automatically after every modification!\n  \n  \n  Documentation\n  =============\n  The plugin is dead simple. When turned on, the current file you are viewing will\n  save automatically as you modify it. In other words, the file saves after every keystroke.\n  The plugin is turned off by default since it is so invasive. You may enable it by adding\n  a key binding to the \"auto_save\" command in \"Preferences / Key Bindings - User\", for example:\n  \n  { \"keys\": [\"ctrl+shift+s\"], \"command\": \"auto_save\" }\n  \n  See links below for more help.\n  \n  Useful Links\n  ============\n  * Documentation & Code: https://github.com/jamesfzhang/auto-save\n  * Report issues: https://github.com/jamesfzhang/auto-save/issues\n  * Follow me on Twitter: @jamesfzhang\n",
-			"settings":
-			{
-				"buffer_size": 946,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
 			}
 		}
 	],
@@ -644,12 +623,33 @@
 	"expanded_folders":
 	[
 		"/C/wamp64/www/suis-moi",
+		"/C/wamp64/www/suis-moi/public",
+		"/C/wamp64/www/suis-moi/public/css",
+		"/C/wamp64/www/suis-moi/public/js",
 		"/C/wamp64/www/suis-moi/resources",
+		"/C/wamp64/www/suis-moi/resources/sass",
 		"/C/wamp64/www/suis-moi/resources/views",
-		"/C/wamp64/www/suis-moi/routes"
+		"/C/wamp64/www/suis-moi/resources/views/layouts"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/suis-moi/resources/sass/_header.scss",
+		"/C/wamp64/www/suis-moi/resources/sass/app.scss",
+		"/C/wamp64/www/suis-moi/resources/views/layouts/app.blade.php",
+		"/C/wamp64/www/suis-moi/resources/views/index.blade.php",
+		"/C/wamp64/www/suis-moi/resources/sass/_variables.scss",
+		"/C/wamp64/www/suis-moi/.env",
+		"/C/wamp64/www/suis-moi/public/css/app.css",
+		"/C/wamp64/www/suis-moi/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/C/wamp64/www/suis-moi/node_modules/bootstrap/scss/_root.scss",
+		"/C/wamp64/www/suis-moi/public/css/main.css",
+		"/C/wamp64/www/suis-moi/routes/web.php",
+		"/C/Users/Yvann/Google Drive/TRAVAIL/HITEMA/M2/PROJET-ANNUEL/barberz-master/index.html",
+		"/C/wamp64/www/suis-moi/resources/views/old-index.blade.php",
+		"/C/wamp64/www/suis-moi/public/css/bootstrap.min.css",
+		"/C/wamp64/www/suis-moi/app/Http/Controllers/ConnexionController.php",
+		"/C/wamp64/www/suis-moi/resources/views/welcome.blade.php",
+		"/C/wamp64/www/suis-moi/composer.lock",
 		"/C/PHP7/php.ini",
 		"/C/PHP7/php.exe",
 		"/C/Users/Yvann/Google Drive/TRAVAIL/HITEMA/M2/PROJET-ANNUEL/WWW/routes/web.php",
@@ -760,34 +760,18 @@
 		"/C/wamp64/www/projet-annuel-m1/1-class/ged.class.php",
 		"/C/wamp64/www/projet-annuel-m1/1-class/connexion.class.php",
 		"/C/wamp64/www/projet-annuel-m1/dashboard/configuration.php",
-		"/C/wamp64/www/projet-annuel-m1/dashboard/magasins.php",
-		"/E/Google Drive/TRAVAIL/HITEMA/M1/SCRIPT/export-hitema/script-a2/bdd.txt",
-		"/C/wamp64/www/projet-annuel-m1/dashboard/pubs-olfactives.php",
-		"/C/wamp64/www/projet-annuel-m1/dashboard/pubs-sonores.php",
-		"/C/wamp64/www/projet-annuel-m1/dashboard/pubs-visuels.php",
-		"/C/wamp64/www/projet-annuel-m1/dashboard/recherche.php",
-		"/C/wamp64/www/projet-annuel-m1/dashboard/ged.php",
-		"/C/wamp64/www/projet-annuel-m1/ressource/user-profile-lite.html",
-		"/C/wamp64/www/projet-annuel-m1/index.php",
-		"/C/wamp64/www/projet-annuel-m1/dashboard.php",
-		"/E/Google Drive/TRAVAIL/HITEMA/M1/SCRIPT/export-hitema/script-horizon/0-config/code-affichage.php",
-		"/E/Google Drive/TRAVAIL/HITEMA/M1/SCRIPT/export-hitema/script-a2/0-config/code-affichage.php",
-		"/C/wamp64/www/projet-annuel-m1/js/app/app-blog-overview.1.1.0.js",
-		"/C/wamp64/www/shards-dashboard-master/index.html",
-		"/C/wamp64/www/projet-annuel-m1/js/generale.js",
-		"/C/wamp64/www/projet-annuel-m1/js/vue.js",
-		"/C/wamp64/www/projet-annuel-m1/js/buttons.js",
-		"/C/wamp64/www/projet-annuel-m1/connexion.php"
+		"/C/wamp64/www/projet-annuel-m1/dashboard/magasins.php"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 135.0,
+		"height": 158.0,
 		"where_history":
 		[
+			"C:\\wamp64\\www\\suis-moi"
 		]
 	},
 	"find_state":
@@ -795,6 +779,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"maxfr",
+			"#header",
+			"Suis moi",
+			"Nunito",
+			"font-family-sans-serif",
+			"Nunito",
+			"barberz",
+			"mages/hero_1.",
+			"img",
+			"bootstra",
+			"awesome",
+			"ax",
+			"awesome",
+			"axesome",
+			"vue",
+			"awesome",
+			"font",
+			"jquery",
+			"_.",
+			"css/",
+			"col-",
+			"btn-sm",
+			"bootstrap",
+			"vue",
+			"#banner",
+			"banner.jpg",
+			"banner",
+			"D2COUVREZ",
+			"welc",
+			"loda",
+			"\"name",
+			"\"time\"",
+			"\"time",
+			"HEAD"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -802,6 +820,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Suis-moi"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -818,24 +837,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "routes/web.php",
+					"file": "/F/WOWS/World_of_Warships_EU/bin/2666186/res/engine_config.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1469,
+						"buffer_size": 8987,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								373,
+								373
 							]
 						],
 						"settings":
@@ -843,129 +862,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/welcome.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2955,
-						"regions":
-						{
-							"col_636B6FFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										477,
-										484
-									],
-									[
-										1270,
-										1277
-									]
-								],
-								"scope": "col_636B6FFF"
-							},
-							"col_636B6FFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_636B6FFF_circle.png",
-								"regions":
-								[
-									[
-										454,
-										454
-									],
-									[
-										1247,
-										1247
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										448,
-										452
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										414,
-										414
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								2039,
-								2039
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1390.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 946,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								317,
-								317
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -979,11 +878,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 29.0
 	},
 	"input":
 	{
-		"height": 51.0
+		"height": 67.0
 	},
 	"layout":
 	{
@@ -1024,7 +923,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 60.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
